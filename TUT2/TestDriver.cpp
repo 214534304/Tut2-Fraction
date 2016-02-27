@@ -26,4 +26,4 @@ int main()
 	ans.print();
 	system("pause");
 	return 0;
-}
+};
