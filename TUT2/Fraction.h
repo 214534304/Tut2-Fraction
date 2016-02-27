@@ -6,6 +6,7 @@ public:
 	~Fraction();
 };
 
+#pragma once
 class Fraction
 {
 
@@ -15,7 +16,7 @@ private:
 	int  MixedNum(int, int);
 
 public:
-	Fraction(); // constructor
+	Fraction(int N = 0, int D = 1); // constructor
 	~Fraction(); // deconstuctor
 
 	// getting the numerator & denominator
