@@ -18,4 +18,16 @@ public:
 	Fraction(); // constructor
 	~Fraction(); // deconstuctor
 
+	// getting the numerator & denominator
+	int Gnumerator();
+	int Gdenominator();
+
+
+	// setting the numerator & denominator
+	void Snumerator(int num);
+	void Sdenominator(int num);
+
+
+
+
 };
