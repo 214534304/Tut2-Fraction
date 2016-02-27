@@ -16,6 +16,7 @@
   <ItemGroup>
     <ClCompile Include="Fraction.cpp" />
     <ClCompile Include="TestDrive.cpp" />
+    <ClCompile Include="TestDriver.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4A3BC701-C051-4D85-9422-5805FD34A0FF}</ProjectGuid>
