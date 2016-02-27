@@ -19,13 +19,13 @@ public:
 	~Fraction(); // deconstuctor
 
 	// getting the numerator & denominator
-	int Gnumerator();
-	int Gdenominator();
+	int Getnumerator();
+	int Getdenominator();
 
 
 	// setting the numerator & denominator
-	void Snumerator(int num);
-	void Sdenominator(int num);
+	void Setnumerator(int num);
+	void Setdenominator(int num);
 
     Fraction add(Fraction add);
 	Fraction subtract(Fraction subtract);
