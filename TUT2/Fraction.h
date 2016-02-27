@@ -27,7 +27,19 @@ public:
 	void Snumerator(int num);
 	void Sdenominator(int num);
 
+    Fraction add(Fraction add);
+	Fraction subtract(Fraction subtract);
+	Fraction multiply(Fraction multiply);
+	Fraction division(Fraction division);
 
+
+
+	Fraction operator+(Fraction add);
+	Fraction operator-(Fraction subtract);
+	Fraction operator*(Fraction multiply);     //Operator Overloading
+	Fraction operator/(Fraction division);
+
+	void print();
 
 
 };
